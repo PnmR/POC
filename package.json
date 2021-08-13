@@ -1,0 +1,13 @@
+{
+  "name": "Cucumber-js-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Poonam Rai",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1"
+  },
+  "scripts": {
+    "run-cucumber": "cucumber-js ./features/**/*.feature -r step_definitions/ -r support/ -f html:test_reports/test_report.html -f json:test_reports/test_report.json --publish-quiet"
+  }
+}
