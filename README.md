@@ -1,4 +1,4 @@
-# Cucumber-js-skeleton
+# POC
 
 
 ## Getting Started
@@ -17,7 +17,7 @@
 
 ## Directory structure
 
-- Cucumber-js-skeleton :  
+- POC :  
   * features
     **<feature_title_in_snake_case>.feature**
   * step-definitions : Here are all the step definitions for the features.
