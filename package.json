@@ -8,6 +8,14 @@
     "@cucumber/cucumber": "^7.3.1"
   },
   "scripts": {
-    "run-cucumber": "cucumber-js ./features/**/*.feature -r step_definitions/ -r support/ -f html:test_reports/test_report.html -f json:test_reports/test_report.json --publish-quiet"
+    "run-cucumber": "./scripts/run_cucumber.sh",
+    "export-xray": "./scripts/export_xray.sh",
+    "postexport-xray": "rm -rf ./features.zip"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cross-var": "^1.1.0",
+    "dotenv": "^10.0.0",
+    "dotenv-cli": "^4.0.0"
   }
 }

@@ -1,0 +1,1 @@
+cucumber-js features/**/*.feature -r step_definitions/ -r ../support/ -f html:test_reports/test_report.html -f json:test_reports/test_report.json --publish-quiet

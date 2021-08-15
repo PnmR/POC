@@ -11,6 +11,7 @@
 
 - yarn install
 
+
 ## Running the tests
 
 - yarn run-cucumber : run tests and generate the test reports

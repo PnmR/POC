@@ -4,19 +4,127 @@
     "elements": [
       {
         "description": "",
+        "id": "as-a-developer,-i-can-update-story-and-task-status-with-drag-and-drop-(click-the-triangle-at-far-left-of-this-story-to-show-sub-tasks);xray-test-poc-10:-scenario-för-test-automation-2",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Xray Test POC-10: Scenario för Test Automation 2",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on page csn.se",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on \"Languages\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I am directed to Språksidan",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@POC-10",
+            "line": 1
+          },
+          {
+            "name": "@POC-36",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-developer,-i-can-update-story-and-task-status-with-drag-and-drop-(click-the-triangle-at-far-left-of-this-story-to-show-sub-tasks);xray-test-poc-10:-scenario-för-test-automation",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Xray Test POC-10: Scenario för Test Automation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on page csn.se",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on \"Kontakta oss\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I am directed to Kontaktsidan",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@POC-10",
+            "line": 1
+          },
+          {
+            "name": "@POC-35",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-developer,-i-can-update-story-and-task-status-with-drag-and-drop-(click-the-triangle-at-far-left-of-this-story-to-show-sub-tasks)",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",
+    "tags": [
+      {
+        "name": "@POC-10",
+        "line": 1
+      }
+    ],
+    "uri": "features/1_POC-10.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "test-feature;test-scenario",
         "keyword": "Scenario",
         "line": 3,
         "name": "Test Scenario",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -54,14 +162,6 @@
             "result": {
               "status": "passed",
               "duration": 1000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 0
             }
           }
         ],
