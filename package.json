@@ -10,7 +10,11 @@
   "scripts": {
     "run-cucumber": "./scripts/run_cucumber.sh",
     "export-xray": "./scripts/export_xray.sh",
-    "postexport-xray": "rm -rf ./features.zip"
+    "postexport-xray": "rm -rf ./features.zip",
+    "import-result-to-xray": "./scripts/import_result_to_xray.sh",
+    "export-zephyr": "./scripts/export_zephyr.sh",
+    "import-result-to-zephyr": "./scripts/import_result_to_zephyr.sh",
+    "xyz": "node ./support/helper.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
