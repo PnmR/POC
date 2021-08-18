@@ -14,7 +14,7 @@
     "import-result-to-xray": "./scripts/import_result_to_xray.sh",
     "export-zephyr": "./scripts/export_zephyr.sh",
     "import-result-to-zephyr": "./scripts/import_result_to_zephyr.sh",
-    "xyz": "node ./support/helper.js"
+    "xyz": "node -r dotenv/config ./support/helper.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
