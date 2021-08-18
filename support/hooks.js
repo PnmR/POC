@@ -1,9 +1,11 @@
-var { After, Before } = require('@cucumber/cucumber');
+var { After, Before, BeforeAll } = require('@cucumber/cucumber');
 
 Before(function (scenario) {
-    console.log(`\nBefore each Scenario: ${scenario.gherkinDocument.feature.children[0].scenario.name}\n`);
+    // console.log(JSON.stringify(scenario));
+    console.log(`\nTags: "${scenario.gherkinDocument.feature.tags[0].name}"`);
+    console.log(`\nNu kör vi feature testing för "${scenario.gherkinDocument.feature.children[0].scenario.name}"\n`);
 });
 
 After(function (scenario) {
-    console.log(`\nAfter each Scenario: ${scenario.gherkinDocument.feature.children[0].scenario.name}`);
+    console.log(`\nNu slutar det bästa feature testing för "${scenario.gherkinDocument.feature.children[0].scenario.name}"`);
 });

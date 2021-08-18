@@ -1,1 +1,1 @@
-dotenv -- cross-var curl -u %JIRA_USER%:%JIRA_PSWD% -X GET -o output/features.zip "http://localhost:8080/rest/atm/1.0/automation/testcases?tql=testCase.projectKey='POC'"  && unzip output/features.zip -d features/zephyr_tests
+dotenv -- cross-var curl -u %JIRA_USER%:%JIRA_PSWD% -X GET -o output/featuresFromZephyr.zip "http://localhost:8080/rest/atm/1.0/automation/testcases?tql=testCase.projectKey='POC'"  && unzip output/featuresFromZephyr.zip -d features/zephyr_tests

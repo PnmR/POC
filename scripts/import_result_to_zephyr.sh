@@ -1,0 +1,2 @@
+zip -r output/resultToZephyrfile.zip test_reports -i '*.json'
+dotenv -- cross-var curl -H "Content-Type: multipart/form-data" -F 'file=@output/resultToZephyrfile.zip' -u %JIRA_USER%:%JIRA_PSWD% -X POST "http://localhost:8080/rest/atm/1.0/automation/execution/cucumber/POC" 
